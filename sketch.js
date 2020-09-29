@@ -113,7 +113,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(cityimg);
+  background(0);
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   drawSprites();
